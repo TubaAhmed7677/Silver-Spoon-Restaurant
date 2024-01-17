@@ -30,12 +30,12 @@ body {
     content: pic;
     top: 0;
     left: 0;
-    background-image: url(assets/images/main.jpeg);
+    background-image: url(/assets/images/main.1.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-attachment: fixed;
     filter: brightness(100%);
 
@@ -87,7 +87,7 @@ body {
 #navbar {
     display: flex;
     justify-content: space-around;
-    background-color: rgba(218, 206, 206, 0.5);
+    background-color: black;
     height: 80px;
     width: 100%;
 
@@ -142,6 +142,190 @@ body {
     transition: 2s;
 }
 
+/* menu section */
+#menu {
+    padding: 45% 0 25px 0;
+
+    #section {
+        /* padding: 50px 0 50px 0;
+        height: 500%; */
+        text-align: center;
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+#section h2 {
+    padding: 45% 0 25px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#section h2 {
+    padding: 45% 0 25px 0;
+    text-align: center;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu_row {
+    display: flex;
+    align-content: stretch;
+    padding: 0 100px 0 100px;
+}
+
+#menu_col {
+    box-shadow: 2px 2px 2px #bbb;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+
+}
+
+#menu_col h2 {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    font-family: cursive;
+}
+
+#image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid orangered;
+}
+
+#image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+
+/* chef section */
+
+
+#Chef {
+    padding: 25px 0 25px 0;
+
+    #section {
+        padding: 25px 0 25px 0;
+        text-align: center;
+        font-size: 4rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+#chef_row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.chef_col {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+#img {
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    margin: auto;
+}
+
+#img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* WEBSITE PORTFOLIO  */
+.section {
+    padding: 15px 0 15px 0;
+}
+
+.Portfolio {
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.Portfolio-img {
+    margin: 3px;
+    padding: 25px;
+    width: 750px;
+    height: 750%;
+}
+
+.Portfolio-img img {
+    margin: 5px;
+    padding: 25px;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+
+.Portfolio-text span {
+    text-align: center;
+    border-radius: 100px;
+    font-size: 25px;
+
+}
+
+.Portfolio-text h1 {
+    margin: 3px;
+    padding: 30px;
+    font-size: 200%;
+    margin: 20px 0;
+}
+
+.Portfolio-text p {
+    margin: 2px;
+    padding: 30px;
+    font-size: 100%;
+}
+
+.min-btn {
+    margin: 5px;
+    padding: 50px;
+    font-size: 150%;
+
+}
+
+
+
+#service-text {
+    margin: 2px;
+    padding: 30px;
+    font-size: 100%;
+}
+
+
+
+
 
 
 @media (max-width:952px) {
@@ -154,6 +338,26 @@ body {
     nav ul li a {
         font-size: 14px;
 
+    }
+    #header {
+        position: absolute;
+    }
+
+    #mobile_menu {
+        display: block;
+    }
+
+    #navbar ul {
+        display: none;
+    }
+
+    html {
+        font-size: 95%;
+    }
+
+    #manu_row {
+        flex-wrap: wrap;
+        padding: 0 10px 0 10px;
     }
 
     @media (max-width:858px) {
@@ -185,9 +389,17 @@ body {
 
 
     }
-
-
-
-
-
 }
+
+@media screen and (max-width : 768px) {
+
+
+    
+}
+
+
+
+
+
+
+
